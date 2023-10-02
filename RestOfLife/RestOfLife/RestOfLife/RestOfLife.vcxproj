@@ -45,7 +45,6 @@
     <ClCompile Include="..\..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="..\..\geometry\aarectx.cu" />
     <CudaCompile Include="..\..\geometry\movingSphere.cu" />
     <CudaCompile Include="..\..\geometry\sphere.cu" />
     <CudaCompile Include="..\..\geometry\volumeBox.cu" />
@@ -62,6 +61,7 @@
     <CudaCompile Include="..\..\pdf\mixturePdf.cu" />
     <CudaCompile Include="..\..\pdf\rectPdf.cu" />
     <CudaCompile Include="..\..\raygen\raygen.cu" />
+    <CudaCompile Include="..\..\shaders\aarectx.cu" />
     <CudaCompile Include="..\..\shaders\aarecty.cu" />
     <CudaCompile Include="..\..\shaders\aarectz.cu" />
     <CudaCompile Include="..\..\shaders\camera.cu" />
