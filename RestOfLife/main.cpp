@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
     // default values
     int Nx = 1200;
     int Ny = 600;
-    int Nscene = 0;
+    int Nscene = 4;
     int Ns = 20;
     bool Qverbose = false;
     bool Qdebug = false;

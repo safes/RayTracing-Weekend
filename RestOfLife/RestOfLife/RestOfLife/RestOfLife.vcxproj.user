@@ -3,6 +3,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerEnvironment>OPTIX_FORCE_DEPRECATED_LAUNCHER=1</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerWorkingDirectory>C:\Developments\weeker_raytracer\src\OptiX_ex\RestOfLife\RestOfLife\x64\Debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)$(Platform)\Debug</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 </Project>
