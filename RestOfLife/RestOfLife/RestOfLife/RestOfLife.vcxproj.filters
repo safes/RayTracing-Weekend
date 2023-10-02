@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{df9318a6-1bcd-4708-a4c0-138d04233c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{affecdb2-1ddd-44b1-bc78-980cda00e4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{fc2b5da4-6248-44bf-bf37-71cd58d77d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaderheaders">
+      <UniqueIdentifier>{7a3a4761-c714-42b3-b484-620b17ff328c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Director.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioAARect.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioGeometry.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioGeometryGroup.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioGeometryInstance.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioGroup.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioMovingSphere.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioSphere.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioTransform.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioVolumeBox.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\geometry\ioVolumeSphere.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\onb.cuh">
+      <Filter>shaderheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\random.cuh">
+      <Filter>shaderheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\raydata.cuh">
+      <Filter>shaderheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\scene\ioCamera.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\scene\ioScene.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shaders\FunctionIdx.h">
+      <Filter>shaderheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shaders\sysparameter.h">
+      <Filter>shaderheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\texture\texture.cuh">
+      <Filter>shaderheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pdf\pdf.cuh">
+      <Filter>shaderheaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pdf\ioPdf.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\material\ioDielectricMaterial.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\material\ioDiffuseLightMaterial.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\material\ioIsotropicMaterial.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\material\ioLambertianMaterial.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\material\ioMaterial.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\material\ioMetalMaterial.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\material\ioNormalMaterial.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Director.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\texture\checkeredTexture.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\texture\noiseTexture.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\material\dielectricMaterial.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\shaders\aarecty.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\shaders\aarectz.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\shaders\camera.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\shaders\closehit.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\geometry\movingSphere.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\geometry\sphere.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\geometry\volumeBox.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\geometry\volumeSphere.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\material\diffuseLight.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\material\isotropicMaterial.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\material\lambertianMaterial.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\material\metalMaterial.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\material\normalMaterial.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\texture\constantTexture.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\texture\imageTexture.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\texture\nullTexture.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\geometry\aarectx.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\miss\miss.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\raygen\raygen.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\pdf\cosinePdf.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\pdf\mixtureBiasPdf.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\pdf\mixturePdf.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\pdf\rectPdf.cu">
+      <Filter>shaders</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
